@@ -1,0 +1,47 @@
+##### Normal Repo ##### 
+# shell
+zsh
+
+# core functionalities
+bluez
+pipewire
+pipewire-audio
+pipewire-pulse
+wireplumber
+
+# core utils
+git
+neovim
+tmux
+alacritty
+polybar
+lsd
+bluez-utils
+reflector
+libnotify
+dunst
+timeshift
+htop
+fzf
+
+# core configs
+xorg-xset
+xorg-xrandr
+arandr
+
+# gtk and qt themes
+lkappearance
+qt5ct
+
+# nice to have
+fastfetch
+bat
+bat-extras
+dust
+zathura
+flameshot
+
+
+
+##### AUR #####
+librewolf-bin
