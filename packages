@@ -10,9 +10,9 @@ pipewire-pulse
 wireplumber
 
 # core utils
-git
 neovim
 tmux
+openssh
 alacritty
 polybar
 lsd
@@ -40,8 +40,7 @@ bat-extras
 dust
 zathura
 flameshot
-
-
+rofi
 
 ##### AUR #####
 librewolf-bin
