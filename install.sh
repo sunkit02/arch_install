@@ -36,12 +36,6 @@ yay $INSTALL_ARGS $PACKAGES
 # Change default shell to zsh
 sudo chsh -s /usr/bin/zsh "$USER"
 
-# Install fonts
-sudo pacman $INSTALL_ARGS ttf-fira-code tty-firacode-nerd wqy-zenhei
-
-# Install arc-gtk-theme
-sudo pacman $INSTALL_ARGS arc-gtk-theme
-
 # Pull configs from Github
 eval "$(ssh-agent -s)" && ssh-add ~/.ssh/github
 

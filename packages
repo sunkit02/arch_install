@@ -3,6 +3,15 @@
 zsh
 zsh-syntax
 
+# fonts
+ttf-fira-code
+tty-firacode-nerd
+tty-bitstream-vera-mono-nerd
+wqy-zenhei
+
+# theme
+arc-gtk-theme
+
 # core functionalities
 bluez
 pipewire
