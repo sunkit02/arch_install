@@ -39,15 +39,9 @@ SSH_DIR="$HOME/.ssh"
 mkdir -p "$SSH_DIR"
 
 SSH_KEY="$SSH_DIR/github"
-printf '\n' | ssh-keygen -t ed25519 -f "$SSH_KEY"
-
-# Add SSH key to ssh-agent
-eval "$(ssh-agent -s)"
-ssh-add "$SSH_KEY"
+printf "\n\n" | ssh-keygen -t ed25519 -f "$SSH_KEY"
 
 # Prompt user to add SSH key to Github
 printf "Add the following SSH key at %s to your Github. Checkout: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account for help.\n" "$SSH_KEY.pub"
 echo "Copy the following:"
-cat "$SSH_KEY"
-
-export SETUP_COMPLETE=yes
+cat "$SSH_KEY.pub"

@@ -30,7 +30,7 @@ xorg-xrandr
 arandr
 
 # gtk and qt themes
-lkappearance
+lxappearance
 qt5ct
 
 # nice to have
@@ -41,6 +41,8 @@ dust
 zathura
 flameshot
 rofi
+rofi-emoji
+rofi-calc
 
 ##### AUR #####
 librewolf-bin
