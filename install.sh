@@ -81,6 +81,11 @@ sed -i "s/sunkit/$USER/g" config.h
 # Only install for current user due to location of screensaver image
 sudo make clean install
 
+# Setup desktop background image
+echo "Creating symlink for desktop background..."
+mkdir -p "$HOME/Pictures"
+ln -sfv "$(pwd)/desktop_background.jpeg" "$HOME/Pictures/desktop_background"
+
 # Closing instructions
 echo "Installation complete!"
 echo "Run 'startx' to start the X11 server and DWM."
