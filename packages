@@ -50,6 +50,7 @@ flameshot
 rofi
 rofi-emoji
 rofi-calc
+nm-applet
 
 ##### AUR #####
 librewolf-bin
