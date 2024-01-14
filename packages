@@ -22,6 +22,7 @@ dunst
 timeshift
 htop
 fzf
+feh
 
 # for dwm
 polybar-dwm-module

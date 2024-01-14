@@ -1,5 +1,7 @@
 #!/bin/sh
 
+CWD="$(pwd)"
+
 INSTALL_ARGS="-S --needed --noconfirm"
 
 LOCAL_SRC="$HOME/.local/src"
@@ -84,7 +86,7 @@ sudo make clean install
 # Setup desktop background image
 echo "Creating symlink for desktop background..."
 mkdir -p "$HOME/Pictures"
-ln -sfv "$(pwd)/desktop_background.jpeg" "$HOME/Pictures/desktop_background"
+ln -sfv "$CWD/desktop_background.jpeg" "$HOME/Pictures/desktop_background"
 
 # Closing instructions
 echo "Installation complete!"
