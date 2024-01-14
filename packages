@@ -44,6 +44,8 @@ imlib2
 xorg-xset
 xorg-xrandr
 arandr
+nm-connection-editor
+network-manager-applet
 
 # gtk and qt themes
 lxappearance
@@ -60,6 +62,9 @@ rofi
 rofi-emoji
 rofi-calc
 nm-applet
+fcitx
+fcitx-configtool
+fcitx-googlepinyin
 
 ##### AUR #####
 librewolf-bin
