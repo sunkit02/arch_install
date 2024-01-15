@@ -8,6 +8,7 @@ LOCAL_SRC="$HOME/.local/src"
 DOTFILES_DIR="$HOME/.dotfiles"
 
 DWM_DIR="$LOCAL_SRC/dwm"
+POLYBAR_DIR="$LOCAL_SRC/polybar-dwm-module"
 SLOCK_DIR="$LOCAL_SRC/slock"
 SCRIPTS_DIR="$LOCAL_SRC/scripts"
 
@@ -51,6 +52,9 @@ git clone git@github.com:sunkit02/dwm.git "$DWM_DIR"
 echo "Pulling slock..."
 git clone git@github.com:sunkit02/slock.git "$SLOCK_DIR"
 
+echo "Pulling polybar-dwm-module..."
+git clone https://github.com/mihirlad55/polybar-dwm-module "$POLYBAR_DIR"
+
 # Configure dotfiles
 cd "$DOTFILES_DIR" || (echo "Failed to cd into $DOTFILES_DIR" && exit 1)
 ./install.sh
@@ -76,6 +80,13 @@ sed -i "s/sunkit/$USER/g" config.h
 
 # Only install for current user due to location of screensaver image
 sudo make clean install
+
+# Compile polybar-dwm-module
+working_commit_hash="0c3e139ac54e081c06ef60548927e679d80d4297"
+cd "$POLYBAR_DIR" || (echo "Failed to cd into polybar-dwm-module" && exit 1)
+# Checkout and compile the last confirmed working build
+git checkout "$working_commit_hash"
+./build.sh --dwm --ipc --gcc --jobs -f --auto
 
 # Setup desktop background image
 echo "Creating symlink for desktop background..."
