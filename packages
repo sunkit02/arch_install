@@ -58,6 +58,7 @@ qt5ct
 
 # nice to have
 fastfetch
+rg
 bat
 bat-extras
 dust
@@ -70,6 +71,10 @@ rofi-calc
 fcitx
 fcitx-configtool
 fcitx-googlepinyin
+
+# development
+nodejs
+npm
 
 ##### AUR #####
 librewolf-bin
