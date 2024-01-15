@@ -24,6 +24,7 @@ wireplumber
 
 # core utils
 neovim
+nvim-packer-git
 tmux
 openssh
 ufw
