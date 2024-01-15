@@ -37,6 +37,7 @@ timeshift
 htop
 fzf
 feh
+lf
 
 # for dwm
 polybar-dwm-module
