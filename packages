@@ -1,12 +1,12 @@
 ##### Normal Repo ##### 
 # shell
 zsh
-zsh-syntax
+zsh-syntax-highlighting
 
 # fonts
 ttf-fira-code
-tty-firacode-nerd
-tty-bitstream-vera-mono-nerd
+ttf-firacode-nerd
+ttf-bitstream-vera-mono-nerd
 wqy-zenhei
 
 # theme
