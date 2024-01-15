@@ -41,7 +41,7 @@ sudo chsh -s /usr/bin/zsh "$USER"
 eval "$(ssh-agent -s)" && ssh-add ~/.ssh/github
 
 echo "Pulling dotfiles..."
-git clone git@github.com:sunkit02/dotfiles.git "$DOTFILES_DIR"
+git clone --recursive git@github.com:sunkit02/dotfiles.git "$DOTFILES_DIR"
 
 echo "Pulling scripts..."
 git clone git@github.com:sunkit02/my-local-shell-scripts.git "$SCRIPTS_DIR"
