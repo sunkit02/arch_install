@@ -59,7 +59,7 @@ qt5ct
 
 # nice to have
 fastfetch
-rg
+ripgrep
 bat
 bat-extras
 dust
