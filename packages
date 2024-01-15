@@ -46,6 +46,7 @@ xorg-xrandr
 arandr
 nm-connection-editor
 network-manager-applet
+pavucontrol
 
 # gtk and qt themes
 lxappearance
