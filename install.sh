@@ -97,6 +97,9 @@ ln -sfv "$CWD/desktop_background.jpeg" "$HOME/Pictures/desktop_background"
 sudo systemctl enable --now keyd
 sudo keyd reload
 
+# Enable cronie
+sudo systemctl enable --now cronie
+
 # Closing instructions
 echo "Installation complete!"
 echo "Run 'startx' to start the X11 server and DWM."
