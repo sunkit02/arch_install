@@ -9,6 +9,9 @@ ttf-firacode-nerd
 ttf-bitstream-vera-mono-nerd
 wqy-zenhei
 
+# key remapping
+keyd
+
 # theme
 arc-gtk-theme
 

@@ -93,6 +93,10 @@ echo "Creating symlink for desktop background..."
 mkdir -p "$HOME/Pictures"
 ln -sfv "$CWD/desktop_background.jpeg" "$HOME/Pictures/desktop_background"
 
+# Enable keyd
+sudo systemctl enable --now keyd
+sudo keyd reload
+
 # Closing instructions
 echo "Installation complete!"
 echo "Run 'startx' to start the X11 server and DWM."
