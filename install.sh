@@ -1,7 +1,9 @@
 #!/bin/sh
 
+# The directory this script resides in
 CWD="$(pwd)"
 
+# WARN: Don't double quote this variable for yay and pacman
 INSTALL_ARGS="-S --needed --noconfirm"
 
 LOCAL_SRC="$HOME/.local/src"
@@ -23,8 +25,6 @@ if [ "$SETUP_COMPLETE" != "yes" ]; then
   echo "Please run setup.sh first before you run this script."
   exit 1
 fi
-
-# WARN: Don't double quote this variable for yay and pacman
 
 echo "Installing packages..."
 
