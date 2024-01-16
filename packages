@@ -21,6 +21,7 @@ pipewire
 pipewire-audio
 pipewire-pulse
 wireplumber
+xclip
 
 # core utils
 neovim
@@ -73,6 +74,7 @@ fcitx-configtool
 fcitx-googlepinyin
 
 # development
+cmake
 nodejs
 npm
 
