@@ -73,6 +73,15 @@ fcitx
 fcitx-configtool
 fcitx-googlepinyin
 
+# password manager
+keepassxc
+
+# file syncing
+syncthing
+
+# remote storage mounting/management
+rclone
+
 # development
 cmake
 nodejs
