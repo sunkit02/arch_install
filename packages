@@ -38,7 +38,17 @@ timeshift
 htop
 fzf
 feh
-lf
+yazi
+ffmpegthumbnailer
+jq
+poppler
+fd
+rg
+zoxide
+
+# display img in terminal
+ueberzugpp
+
 
 # for dwm
 yajl
