@@ -22,6 +22,7 @@ pipewire-audio
 pipewire-pulse
 wireplumber
 xclip
+xrdb
 
 # core utils
 neovim
