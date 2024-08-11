@@ -47,6 +47,9 @@ fd
 rg
 zoxide
 
+# Sandboxing
+firejail
+
 # display img in terminal
 ueberzugpp
 
@@ -56,6 +59,7 @@ yajl
 imlib2
 
 # core configs
+xorg-ixnit
 xorg-xset
 xorg-xrandr
 arandr
@@ -99,3 +103,11 @@ npm
 
 ##### AUR #####
 librewolf-bin
+brave-bin
+auto-cpufreq
+bluetui
+envycontrol
+paru
+debtap
+bluetui
+postman-bin
