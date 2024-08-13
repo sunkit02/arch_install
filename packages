@@ -99,6 +99,7 @@ syncthing
 
 # remote storage mounting/management
 rclone
+fuse3
 
 # development
 cmake
