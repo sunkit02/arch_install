@@ -17,6 +17,7 @@ arc-gtk-theme
 
 
 # core functionalities
+networkmanager
 bluez
 pipewire
 pipewire-audio
