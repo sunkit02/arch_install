@@ -15,6 +15,7 @@ keyd
 # theme
 arc-gtk-theme
 
+
 # core functionalities
 bluez
 pipewire
@@ -37,6 +38,7 @@ libnotify
 dunst
 timeshift
 htop
+btop
 fzf
 feh
 yazi
@@ -57,6 +59,7 @@ ueberzugpp
 # for dwm
 yajl
 imlib2
+jsoncpp
 
 # core configs
 xorg-ixnit
