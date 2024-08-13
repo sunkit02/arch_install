@@ -91,7 +91,8 @@ git checkout "$working_commit_hash"
 # Setup desktop background image
 echo "Creating symlink for desktop background..."
 mkdir -p "$HOME/Pictures"
-ln -sfv "$CWD/desktop_background.jpeg" "$HOME/Pictures/desktop_background"
+cp "$CWD/desktop_background.jpeg" "$HOME/Pictures/"
+ln -sfv "$HOME/Pictures/desktop_background.jpeg"  "$HOME/Pictures/desktop_background"
 
 # Enable keyd
 sudo systemctl enable --now keyd
