@@ -89,6 +89,7 @@ rofi-calc
 fcitx
 fcitx-configtool
 fcitx-googlepinyin
+cmus
 
 # password manager
 keepassxc
