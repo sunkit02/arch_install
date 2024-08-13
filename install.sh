@@ -101,6 +101,9 @@ sudo keyd reload
 # Enable cronie
 sudo systemctl enable --now cronie
 
+# Enable Network Manager
+sudo systemctl enable --now networkmanager
+
 # Closing instructions
 echo "Installation complete!"
 echo "Run 'startx' to start the X11 server and DWM."

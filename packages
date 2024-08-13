@@ -66,6 +66,7 @@ jsoncpp
 xorg-ixnit
 xorg-xset
 xorg-xrandr
+xorg-server
 arandr
 nm-connection-editor
 network-manager-applet
