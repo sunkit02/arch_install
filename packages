@@ -52,6 +52,7 @@ poppler
 fd
 rg
 zoxide
+bind
 
 # Sandboxing
 firejail
