@@ -86,7 +86,7 @@ working_commit_hash="0c3e139ac54e081c06ef60548927e679d80d4297"
 cd "$POLYBAR_DIR" || (echo "Failed to cd into polybar-dwm-module" && exit 1)
 # Checkout and compile the last confirmed working build
 git checkout "$working_commit_hash"
-./build.sh --dwm --ipc --gcc --jobs -f --auto
+./build.sh --dwm --pulseaudio --network --mpd --curl --ipc --gcc --jobs -f --auto
 
 # Setup desktop background image
 echo "Creating symlink for desktop background..."
