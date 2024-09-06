@@ -23,6 +23,7 @@ networkmanager
 bluez
 pipewire
 pipewire-audio
+pipewire-alsa
 pipewire-pulse
 wireplumber
 xclip
