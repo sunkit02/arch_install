@@ -99,6 +99,8 @@ fcitx-configtool
 fcitx-googlepinyin
 cmus
 speedtest-cli
+vscode-html-languageserver
+vscode-css-languageserver
 
 # password manager
 keepassxc
