@@ -55,6 +55,7 @@ rg
 zoxide
 bind
 git-lfs
+tree
 
 # Sandboxing
 firejail
