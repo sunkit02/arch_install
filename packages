@@ -109,6 +109,12 @@ keepassxc
 # file syncing
 syncthing
 
+# file manager
+thunar
+thunar-volman
+gvfs
+gvfs-afc
+
 # remote storage mounting/management
 rclone
 fuse3
@@ -128,3 +134,5 @@ paru
 debtap
 bluetui
 postman-bin
+
+# hoppscotch (also needs openssl-1.1)
