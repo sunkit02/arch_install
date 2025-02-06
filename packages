@@ -29,6 +29,7 @@ wireplumber
 xclip
 xrdb
 playerctl
+pacman-contrib
 
 # core utils
 neovim
