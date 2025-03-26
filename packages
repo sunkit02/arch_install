@@ -3,6 +3,9 @@
 zsh
 zsh-syntax-highlighting
 
+# display manager
+ly
+
 # fonts
 ttf-fira-code
 ttf-firacode-nerd
